@@ -1,0 +1,654 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 50%;
+    height: 60px;
+}
+.logo span {
+    font-size: 2rem;
+    color: white;
+}
+
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    color: #fd4665;
+}
+
+.collapse .buynow {
+    padding: 15px 30px; 
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.collapse .buynow:hover{
+    color: white;
+    background-color: #fd4665;
+    border: 1px solid #fd4665;
+    
+}
+
+
+/* carousel */
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item:nth-child(1) {
+    background-image: url(./imroz/bg-image-23.jpg);
+    
+
+}
+.carousel-item:nth-child(2) {
+    background-image: url(./imroz/bg-image-22.jpg);
+   
+    
+}
+.carousel-item:nth-child(3) {
+    background-image: url(./imroz/bg-image-20.jpg);
+    
+}
+.carousel-item:nth-child(4) {
+    background-image: url(./imroz/bg-image-24.jpg);
+    
+    
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1
+
+{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 900;
+}
+.carousel-caption p
+
+{
+    color: #c6c9d8;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.carousel-caption a{
+    padding: 16px 40px;
+    border-radius: 500px;
+    color: #ffffff;
+    background-color: #fd4665;
+    border: 1px solid #fd4665;
+}
+
+.carousel-caption a:hover{
+color: #fd4665;
+background-color: rgba(255, 255, 255, 0);
+text-decoration: none;
+
+
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}   
+
+
+/* Project  */
+
+
+#project {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.project__title{
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+.project__title span{
+   color: #1C99FE;
+     font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    
+}
+.project__title h3
+{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+.project__title p
+
+{
+    font-size: 18px;
+    line-height: 30px;
+    color: #909093;
+}
+
+.project__content .card {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+
+.project__content .card i{
+    color: #fd4665;
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 10px;
+    }
+
+    .project__content .card p{
+        /* font-weight: 500px; */
+
+        color : #909093 }
+
+.project__content .col-md-4 {
+    margin-bottom: 20px;
+    
+}
+
+
+
+/* services  */
+
+#services {
+    background-color: #f8f7fd;
+    padding: 100px;
+}
+.services__title {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.services__title span {
+    margin-top: 100px;
+    color: #fd4665;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.services__title h3
+
+{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+.services__title p {
+    font-weight: 300;
+    color: #717173;
+}
+
+.services__content .img-1{
+    background-image: url(./imroz/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 20px;
+    width: 100%;
+
+}
+.services__content .img-2{
+    background-image: url(./imroz/portfolio-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.services__content .img-3{
+    background-image: url(./imroz/portfolio-6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.services__content .img-4{
+    background-image: url(./imroz/portfolio-7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.services__content .img-5{
+    background-image: url(./imroz/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    width: 100%;
+}
+.services__content .img-6{
+    background-image: url(./imroz/portfolio-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.services__content .col-md-4 {
+    margin-bottom: 30px;
+    
+}
+
+
+.services__content .card-body {
+    text-align: center;
+    transform: translateY(75%);
+    color: white;
+}
+
+.services__content .card-body p {
+    font-weight: 300;
+    color: #909093;
+    }
+
+
+.services__content button {
+    padding: 20px 50px ;
+    background-color: #fd4665;
+    border :2px solid #fd4665;
+    color: #ffffff;
+    border-radius: 50px;
+    transform: translateX(200%);
+}
+.services__content button:hover {
+    background-color: rgba(255, 255, 255, 0);
+
+    color: #fd4665;
+    transition: all 0.5s;
+    }
+
+
+    /* About  */
+
+#about{
+    padding: 100px;
+
+}
+.about__wrapper .thubnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about__wrapper .section-titile span 
+{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fd4665;
+}
+
+.about__wrapper .section-titile h2
+{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about__wrapper .section-titile p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #717173;
+}
+
+ .section-option .tab-option{
+   
+    
+    display: flex;
+    border: 1px solid #c6c9d8;
+    list-style: none;
+    border-radius: 50px;
+    
+   
+    
+    
+}
+.tab-option li.active{
+    /* width: 100%; */
+    background-color: #fd4665;
+    margin-left: -1px;
+    
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.section-option .tab-option a{
+    color: #909093;
+    font-weight: 600;
+
+}
+
+.tab-option li{
+    margin: 0 15px;
+}
+
+
+
+
+.tab-content {
+    margin-top: 30px;
+}
+.tab-content h4 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.tab-content ul li
+{
+    color: #7e7e7e;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.tab-content ul li i {
+    margin-right: 5px;
+    color: #fd4665;
+    margin-top: 10px;
+}
+
+.testimonial {
+    margin-top: 100px;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-image: url(./imroz/image-1.png);
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+}
+
+.testimonial__content .inner p{
+    font-size: 30px;
+    line-height: 48px;
+    color: #18181b;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: -16px;
+    
+    
+}
+.testimonial__content .info span{ 
+font-weight: 500;
+color: #fd4665;
+}
+
+.testimonial__content .info h4{ 
+    font-size: 18px;
+    line-height: 50px;
+    color: #8c8c8c;
+    font-weight: 300;
+
+}
+
+.testimonial__thumbnail .col-lg-4{
+    margin-bottom: 20px;
+    
+}
+
+.testimonial__thumbnail .img_78{
+    margin-left: 100px;
+
+}
+
+
+
+
+/* Blog  */
+
+#blog {
+    padding: 100px auto;
+    margin-top: 100px;
+}
+
+.blog__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog__title span
+{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fd4665;
+}
+
+.blog__title h2
+
+{
+
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+.blog__title p
+
+{
+    font-weight: 300;
+    color: #717173;
+}
+
+.blog__content .img-1 {
+    background-image: url(./imroz/blog-01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+.blog__content .img-2 {
+    background-image: url(./imroz/blog-02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+.blog__content .img-3 {
+    background-image: url(./imroz/blog-03.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blog__content .card-body {
+    /* text-align: center; */
+    transform: translateY(75%);
+    color: white;
+}
+
+.blog__content .card-body p {
+    font-weight: 300;
+    color:#c6c9d8;
+}
+
+.blog__content button {
+    padding: 20px 50px ;
+    background-color: #fd4665;
+    border :2px solid #fd4665;
+    color: #ffffff;
+    border-radius: 50px;
+    transform: translateX(235%);
+    margin-top: 20px;
+}
+.blog__content button:hover {
+background-color: rgba(255, 255, 255, 0);
+
+    color: #fd4665;
+    transition: all 0.5s;
+ }
+
+
+
+ /* brand  */
+#brand{
+        margin-top: 100px;
+        padding-top: 100px;
+        background-color: #f6f6f6;
+}
+
+.brand__tittle {
+    text-align: center;
+    margin-bottom: 50px;
+        
+    }
+.brand__tittle span {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        line-height: 18px;
+        font-size: 16px;
+        margin-bottom: 12px;
+        color: #fd4665;
+}
+.brand__tittle h2 {
+    
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 62px;
+        margin-bottom: 20px;
+}
+.brand__tittle p{
+        font-weight: 300;
+        color: #717173;
+}
+
+.brand .brand-list{
+    padding: 20px 30px;
+    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.brand .brand-list img{
+    padding: 20px 30px;
+
+}
+
+
+/* Footer  */
+
+
+#footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+#footer hr{
+    font-size: 5px;
+}
+.footer1 .col-lg-6 .readout a{
+    padding: 30px 60px;
+   
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #909093;
+    margin-left: 250px;
+    
+    
+}
+
+.footer1 .col-lg-6 .readout a:hover{
+    background-color: #fd4665;
+    border: 2px solid #fd4665;
+    color: white;
+    transition: all 0.5;
+    
+}
+
+
+
+
+.footer1 .inner h2{
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.footer2 .logo {
+    margin-bottom: 50px;
+}
+.footer2 .ft-text p {
+    
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.footer2 .footer-link {
+    margin-left: 45px;
+
+}
+.footer2 .footer-link h4{
+    color: white;
+
+}
+.footer2 .ft-link li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #909093;
+
+}
+
+.footer2 .ft-link a{
+    text-decoration: none;
+    color: #909093;
+}
+
+.media-icon i{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
